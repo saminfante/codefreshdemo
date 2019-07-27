@@ -3,7 +3,7 @@ steps:
   main_clone:
     title: Cloning main repository...
     type: git-clone
-    repo: 'saminfante/codefreshdemo'
+    repo: 'codefresh-contrib/php-composer-sample-app'
     revision: master
     git: github
   MyAppDockerImage:
